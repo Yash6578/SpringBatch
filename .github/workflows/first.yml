@@ -22,6 +22,6 @@ jobs:
           distribution: 'temurin' # See 'Supported distributions' for available options
           java-version: '17'
       - name: execute maven commands
-        run: mvn package
+        run: mvn spring-boot:run
       - name: display the contents of the folder after maven execution
         run: ls
