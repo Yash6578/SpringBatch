@@ -15,7 +15,7 @@ jobs:
       - name: display the present working directory
         run: |
           pwd
-          1s
+          ls
       - name: Setup Java JDK
         uses: actions/setup-java@v4.6.0
         with:
