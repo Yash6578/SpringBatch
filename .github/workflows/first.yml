@@ -24,4 +24,4 @@ jobs:
       - name: execute maven commands
         run: mvn package
       - name: display the contents of the folder after maven execution
-        run: 1s
+        run: ls
